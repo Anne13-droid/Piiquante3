@@ -1,0 +1,17 @@
+/lien vers l'url du signup dans postman
+Post
+http://localhost:3000/api/auth/signup
+
+
+/ Lien vers l'url du login
+Post
+http://localhost:3000/api/auth/login
+
+
+/ Lien vers l'url d'une sauce
+GET
+http://localhost:3000/api/sauces/:id
+
+/ Lien vers l'url d'un like ou dislike
+Post
+http://localhost:3000/api/sauces/:id/like
