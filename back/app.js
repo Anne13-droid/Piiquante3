@@ -14,7 +14,7 @@ const limiter = rateLimit({
     standardHeaders: true, // Renvoie les informations de limite de débit dans les en-têtes `RateLimit-*`
     legacyHeaders: false, // Désactive les en-têtes `X-RateLimit-*`
 });
-console.log(limiter);
+
 // Applique le middleware de limitation de débit à toutes les requêtes
 app.use(limiter);
 
